@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+
+.add-post {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
