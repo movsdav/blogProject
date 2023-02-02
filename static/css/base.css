@@ -2,8 +2,21 @@
     margin: 0;
 }
 
-.add-post {
+.add-post, .login-div{
     width: 50%;
     height: auto;
     margin: auto;
+}
+
+.blog-container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0.8em 0;
+}
+
+#header{
+    padding: 0.8em;
 }

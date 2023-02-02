@@ -48,5 +48,5 @@ class PostDeleteView(DeleteView):
     model = Post
     success_url = reverse_lazy('posts')
 
-    def get(self,req, *args, **kwargs):
-        return self.delete(req,*args,**kwargs)
+    def get(self, req, *args, **kwargs):
+        return self.delete(req, *args, **kwargs)
